@@ -99,6 +99,8 @@ body {
 .wrapper .conversational-form cf-list {
   width: 100% !important;
   height: 100% !important;
+  transform: none !important;
+  cursor: default;
 }
 
 .wrapper .conversational-form cf-list-button:after,
@@ -108,4 +110,9 @@ body {
 
 .wrapper .conversational-form cf-list-button:after {
   background-image: none;
+}
+
+/* CONVERSATIONAL FORM - INPUT WRAPPER */
+.wrapper .conversational-form .inputWrapper {
+  display: none;
 }
