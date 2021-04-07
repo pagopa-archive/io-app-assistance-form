@@ -15,7 +15,7 @@ _io-app-assistance-form_ provides first level automatic assistance, through a co
 
 1. Click the green Code button on the Github repository page, select HTTPS and copy the URL.
 2. Open a terminal and change the current working directory to the location where you want the cloned directory. Example: `cd desktop`
-3. Type git clone, and then paste the URL you copied earlier.
+3. Type `git clone`, and then paste the URL you copied earlier.
 4. Press Enter to create your local clone.
 5. Move into your cloned repository (replace `<work-dir>`):
    Example: `cd <work-dir>/io-app-assistance-form`
