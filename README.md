@@ -13,10 +13,14 @@ _io-app-assistance-form_ provides first level automatic assistance, through a co
 
 ## How to run the app in the development mode
 
-1. Move into your actual work directory (replace `<work-dir>`):
+1. Click the green Code button on the Github repository page, select HTTPS and copy the URL.
+2. Open a terminal and change the current working directory to the location where you want the cloned directory. Example: `cd desktop`
+3. Type git clone, and then paste the URL you copied earlier.
+4. Press Enter to create your local clone.
+5. Move into your cloned repository (replace `<work-dir>`):
    Example: `cd <work-dir>/io-app-assistance-form`
-2. Launch `npm install` in your terminal, wait for the installation of the packages to finish.
-3. Launch `npm start`
+6. Launch `npm install` in your terminal, wait for the installation of the packages to finish.
+7. Launch `npm start`
 
 If you want to see what these commands are for, see the section [Useful scripts](#useful-scripts)
 
