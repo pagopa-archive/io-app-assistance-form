@@ -1,0 +1,49 @@
+{
+  "stepList": [
+    {
+      "previousStepId": "first-6",
+      "previousStepValue": "Satispay",
+      "id": "satispay-1",
+      "question": "Il metodo di pagamento risulta attivato per il Cashback in app IO nella sezione “Attivati su altri canali”?",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "satispay-1",
+      "previousStepValue": "No",
+      "id": "satispay-2",
+      "question": "Hai attivato il Cashback di Sato sull’app di Satispay?",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "satispay-2",
+      "previousStepValue": "Si",
+      "id": "satispay-3",
+      "question": "Vedi il metodo tra quelli “Attivati su altri canali” in app IO?",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "satispay-1",
+      "previousStepValue": "Si",
+      "end": true,
+      "message": "PagoPA non ha visibilità sui dati delle transazioni gestite dagli Acquirer e può solo chiedere a questi soggetti di effettuare specifici controlli. Pertanto ti invitiamo ad aprire una segnalazione fornendoci copia della ricevuta Satispay relativa alla tua transazione; solo così ci sarà possibile sollecitare delle verifiche sul tuo caso."
+    },
+    {
+      "previousStepId": "satispay-2",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "Al momento è possibile attivare Satispay al Cashback solo dall’app di Satispay. Ti invitiamo a farlo."
+    },
+    {
+      "previousStepId": "satispay-3",
+      "previousStepValue": "Si",
+      "end": true,
+      "message": "PagoPA non ha visibilità sui dati delle transazioni gestite dagli Acquirer e può solo chiedere a questi soggetti di effettuare specifici controlli. Pertanto ti invitiamo ad aprire una segnalazione fornendoci copia della ricevuta Satispay relativa alla tua transazione; solo così ci sarà possibile sollecitare delle verifiche sul tuo caso."
+    },
+    {
+      "previousStepId": "satispay-3",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "Se non vedi il metodo tra quelli “Attivati su altri canali” in app IO, ti invitiamo a rivolgerti all’assistenza dell’app Satispay per capire il motivo."
+    }
+  ]
+}

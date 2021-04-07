@@ -1,0 +1,15 @@
+{
+  "stepList": [
+    {
+      "id": "flow-select",
+      "question": "Ciao! Per aiutarti al meglio, seleziona un argomento:",
+      "answers": [
+        "Cashback",
+        "Accesso tramite SPID",
+        "Accesso tramite CIE",
+        "Bonus Vacanze",
+        "Pagamento pagoPA"
+      ]
+    }
+  ]
+}

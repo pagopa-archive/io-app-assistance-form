@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+
+/* RESET DEFAULT */
+body {
+  margin: 0;
+}
+
+/* VARIABLES */
+:root {
+  --primary: #0073e6;
+  --white: #ffffff;
+}
+
+/* CONVERSATIONAL FORM */
+#cf-context {
+  width: 100vw;
+  height: 100vh;
+}
+
+#form {
+  height: 0;
+  overflow: hidden;
+}
+
+.wrapper .conversational-form {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.wrapper .conversational-form::before {
+  height: 0;
+}
+
+/* CONVERSATIONAL FORM - WRAPPER BOX */
+.wrapper .conversational-form cf-chat-response {
+  padding: 0;
+  padding-bottom: 1rem;
+}
+
+/* CONVERSATIONAL FORM - ROBOT BOX */
+.wrapper .conversational-form cf-chat-response.robot text {
+  color: var(--white);
+}
+
+.wrapper .conversational-form cf-chat-response.robot text > p {
+  background: var(--primary);
+}
+
+.wrapper .conversational-form cf-chat-response.robot thumb {
+  display: none;
+}
+
+/* CONVERSATIONAL FORM - USER BOX */
+.wrapper .conversational-form cf-chat-response.user text {
+  color: var(--white);
+}
+
+.wrapper .conversational-form cf-chat-response.user text > p {
+  background: var(--primary);
+}
+
+.wrapper .conversational-form cf-chat-response.user thumb {
+  display: none;
+}
+
+/* CONVERSATIONAL FORM - BUTTON SUBMIT */
+.wrapper .conversational-form cf-input-button {
+  background: var(--primary);
+}
+
+.wrapper .conversational-form cf-input-button:hover {
+  background: var(--primary);
+}
+
+/* CONVERSATIONAL FORM - RADIO BUTTON */
+.wrapper .conversational-form .cf-button {
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.wrapper .conversational-form .cf-button:hover {
+  background: var(--primary);
+  color: var(--white);
+  border: 1px solid var(--primary);
+}
+
+.wrapper .conversational-form cf-radio-button.cf-button cf-radio {
+  border: 1px solid var(--primary);
+}
+
+/* CONVERSATIONAL FORM - RADIO BUTTON CHECKED */
+.wrapper .conversational-form cf-radio-button.cf-button[checked="checked"] {
+  background: var(--primary) !important;
+  border: 1px solid var(--primary);
+}
+
+/* CONVERSATIONAL FORM - WRAPPER ANSWERS */
+.wrapper .conversational-form cf-list {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.wrapper .conversational-form cf-list-button:after,
+.wrapper .conversational-form cf-list-button:before {
+  opacity: 0;
+}
+
+.wrapper .conversational-form cf-list-button:after {
+  background-image: none;
+}

@@ -1,0 +1,37 @@
+{
+  "stepList": [
+    {
+      "previousStepId": "first-6",
+      "previousStepValue": "BANCOMAT Pay",
+      "id": "bancomat-pay-1",
+      "question": "Il metodo di pagamento ti risulta presente e attivato per il Cashback in app IO?",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "bancomat-pay-1",
+      "previousStepValue": "No",
+      "id": "bancomat-pay-2",
+      "question": "Hai aggiunto il tuo account BANCOMAT Pay in app IO?",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "bancomat-pay-2",
+      "previousStepValue": "Si",
+      "id": "bancomat-pay-3",
+      "question": "Il metodo BANCOMAT Pay risulta attivato in app IO?",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "bancomat-pay-2",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "Prima di utilizzare BANCOMAT Pay ai fini del Cashback lo devi aggiungere ed attivarlo andando in Metodo di pagamento > App e strumenti di pagamento digitali > BANCOMAT Pay."
+    },
+    {
+      "previousStepId": "bancomat-pay-3",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "Per poter utilizzare il metodo ai fini del Cashback lo devi attivare."
+    }
+  ]
+}

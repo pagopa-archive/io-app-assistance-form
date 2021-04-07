@@ -1,0 +1,67 @@
+{
+  "stepList": [
+    {
+      "previousStepId": "flow-select",
+      "previousStepValue": "Cashback",
+      "id": "first-1",
+      "question": "Non vedi una transazione?",
+      "answers": ["Si"]
+    },
+    {
+      "previousStepId": "first-1",
+      "previousStepValue": "Si",
+      "id": "first-2",
+      "question": "Hai fatto un acquisto online?",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "first-2",
+      "previousStepValue": "No",
+      "id": "first-3",
+      "question": "La visualizzazione delle transazioni su app IO non è immediata: di media, possono essere necessari fino a tre giorni lavorativi dopo la contabilizzazione dei singoli movimenti da parte della banca; in alcuni casi, può essere necessario anche più tempo (https://io.italia.it/cashback/faq/#n4_13). Sono passati almeno tre giorni lavorativi dalla contabilizzazione della tua banca?",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "first-3",
+      "previousStepValue": "Si",
+      "id": "first-4",
+      "question": "Hai utilizzato una carta di credito, debito o prepagata per effettuare il pagamento?",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "first-4",
+      "previousStepValue": "Si",
+      "id": "first-5",
+      "question": "Quale circuito di pagamento hai utilizzato?",
+      "answers": [
+        "American Express",
+        "VISA, Mastercard",
+        "PagoBANCOMAT",
+        "Maestro, V-Pay"
+      ]
+    },
+    {
+      "previousStepId": "first-4",
+      "previousStepValue": "No",
+      "id": "first-6",
+      "question": "Se hai utilizzato una app sul tuo telefono per effettuare il pagamento, quale dei seguenti metodi hai utilizzato?",
+      "answers": [
+        "Satispay",
+        "BANCOMAT Pay",
+        "Google Pay, Apple Pay, Samsung Pay"
+      ]
+    },
+    {
+      "previousStepId": "first-2",
+      "previousStepValue": "Si",
+      "end": true,
+      "message": "Ci dispiace ma i pagamenti online non rientrano nel programma Cashback."
+    },
+    {
+      "previousStepId": "first-3",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "Ti consigliamo di aspettare ancora alcuni giorni."
+    }
+  ]
+}

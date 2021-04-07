@@ -1,0 +1,62 @@
+{
+  "stepList": [
+    {
+      "previousStepId": "first-5",
+      "previousStepValue": "PagoBANCOMAT",
+      "id": "pago-bancomat-1",
+      "question": "Se hai usato una carta PagoBANCOMAT, il pagamento potrebbe anche essere avvenuto tramite il secondo circuito presente su quella stessa carta (ad esempio Maestro o VPay) che potrebbe non essere stato attivato per il Cashback. Questo caso può verificarsi in particolare se effettui un pagamento in modalità contactless. Hai lo scontrino POS su cui è riportato il circuito di pagamento?",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "pago-bancomat-1",
+      "previousStepValue": "No",
+      "id": "pago-bancomat-2",
+      "question": "Tutte le carte bancomat sono associate a più di un circuito di pagamento (i marchi riportati sulla tessera di plastica). Qual è il circuito della tua carta su cui è passata la transazione?",
+      "answers": [
+        "PagoBANCOMAT",
+        "VISA o Mastercard",
+        "Maestro o V-Pay",
+        "Non so"
+      ]
+    },
+    {
+      "previousStepId": "pago-bancomat-2",
+      "previousStepValue": "VISA o Mastercard||Maestro o V-Pay",
+      "id": "pago-bancomat-3",
+      "question": "Sei sicuro di aver registrato ed attivato al Cashback anche questo circuito della tua carta?",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "pago-bancomat-1",
+      "previousStepValue": "Si",
+      "id": "pago-bancomat-4",
+      "question": "Il circuito riportato sullo scontrino POS è PagoBANCOMAT?",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "pago-bancomat-4",
+      "previousStepValue": "No",
+      "id": "pago-bancomat-5",
+      "question": "Hai registrato ed attivato al Cashback il secondo circuito della tua carta PagoBANCOMAT?",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "pago-bancomat-2",
+      "previousStepValue": "Non so",
+      "end": true,
+      "message": "Per effettuare acquisti validi ai fini del rimborso con entrambi i circuiti, entra nel 'Portafoglio' dell'app IO, seleziona la tua carta PagoBANCOMAT e segui le istruzioni per aggiungere il secondo circuito; se la tua banca è supportata (https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online), potrai aggiungere il secondo circuito anche se non è abilitato ai pagamenti online (ad esempio se privo del codice CVV sul retro della carta). Per maggiori info: https://io.italia.it/metodi-pagamento"
+    },
+    {
+      "previousStepId": "pago-bancomat-3",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "Per effettuare acquisti validi ai fini del rimborso con entrambi i circuiti, entra nel 'Portafoglio' dell'app IO, seleziona la tua carta PagoBANCOMAT e segui le istruzioni per aggiungere il secondo circuito; se la tua banca è supportata (https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online), potrai aggiungere il secondo circuito anche se non è abilitato ai pagamenti online (ad esempio se privo del codice CVV sul retro della carta). Per maggiori info: https://io.italia.it/metodi-pagamento"
+    },
+    {
+      "previousStepId": "pago-bancomat-5",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "Per effettuare acquisti validi ai fini del rimborso con entrambi i circuiti, entra nel 'Portafoglio' dell'app IO, seleziona la tua carta PagoBANCOMAT e segui le istruzioni per aggiungere il secondo circuito; se la tua banca è supportata (https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online), potrai aggiungere il secondo circuito anche se non è abilitato ai pagamenti online (ad esempio se privo del codice CVV sul retro della carta). Per maggiori info: https://io.italia.it/metodi-pagamento"
+    }
+  ]
+}

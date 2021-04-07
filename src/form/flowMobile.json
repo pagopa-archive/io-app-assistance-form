@@ -1,0 +1,43 @@
+{
+  "stepList": [
+    {
+      "previousStepId": "first-6",
+      "previousStepValue": "Google Pay, Apple Pay, Samsung Pay",
+      "id": "mobile-1",
+      "question": "La carta che hai aggiunto ad Apple Pay, Google Pay o Samsung Pay l’hai attivata tramite app IO?",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "mobile-1",
+      "previousStepValue": "No",
+      "id": "mobile-2",
+      "question": "Apple Pay e Google Pay possono essere utilizzati solo attivando al Cashback le carte di pagamento collegate da alcune app di issuer convenzionati (ad esempio, YAP, Nexi Pay). Per maggiori info: https://io.italia.it/cashback/issuer/ L’app con cui hai attivato la tua carta al Cashback ti permette di utilizzare Apple Pay o Google Pay?",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "mobile-2",
+      "previousStepValue": "Si",
+      "id": "mobile-3",
+      "question": "La versione virtuale della tua carta che Apple e Google utilizzano per identificare quel metodo sul tuo dispositivo risulta attivato per il Cashback in app IO nella sezione “Attivati su altri canali”?",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "mobile-1",
+      "previousStepValue": "Si",
+      "end": true,
+      "message": "Ci dispiace, ma Apple Pay, Google Pay e Samsung Pay sono metodi di pagamento che non possono ancora essere utilizzati per il Cashback se la carta collegata è stata attivata sull'app IO. Saranno supportati nel corso del 2021. Per maggiori info: https://io.italia.it/metodi-pagamento"
+    },
+    {
+      "previousStepId": "mobile-2",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "Ci dispiace, ma Apple Pay, Google Pay e Samsung Pay sono metodi di pagamento che non possono ancora essere utilizzati per il Cashback se la carta collegata è stata attivata sull'app IO. Saranno supportati nel corso del 2021. Per maggiori info: https://io.italia.it/metodi-pagamento"
+    },
+    {
+      "previousStepId": "mobile-3",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "Ti invitiamo a rivolgerti all’assistenza dell’app con cui hai attivato il metodo per capire perché la versione virtuale della tua carta aggiunta con Apple Pay o Google Pay non risulta presente."
+    }
+  ]
+}

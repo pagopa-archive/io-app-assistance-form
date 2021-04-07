@@ -1,0 +1,160 @@
+{
+  "stepList": [
+    {
+      "previousStepId": "first-5",
+      "previousStepValue": "VISA, Mastercard||Maestro, V-Pay",
+      "id": "credit-card-1",
+      "question": "La transazione è stata gestita con il dispositivo di accettazione (POS) di un soggetto convenzionato? Per maggiori info: https://io.italia.it/cashback/acquirer",
+      "answers": ["Si", "No", "Non lo so"]
+    },
+    {
+      "previousStepId": "credit-card-1",
+      "previousStepValue": "Non lo so",
+      "id": "credit-card-2",
+      "question": "L’indicazione dell’Acquirer convenzionato è solitamente riportata sullo scontrino POS. Hai lo scontrino per poterlo verificare?",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "credit-card-2",
+      "previousStepValue": "Si",
+      "id": "credit-card-3",
+      "question": "Lo scontrino POS riporta l’indicazione dell’Acquirer? Per maggiori info: https://io.italia.it/cashback/acquirer",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "credit-card-3",
+      "previousStepValue": "Si",
+      "id": "credit-card-4",
+      "question": "L’Acquirer risulta tra quelli convenzionati? Per maggiori info: https://io.italia.it/cashback/acquirer",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "credit-card-1",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "All’avvio del Cashback, alcuni Esercenti potrebbero non disporre da subito di un dispositivo per l’utilizzo degli strumenti di pagamento elettronici che ti consentono di partecipare all’iniziativa. Infatti, affinché una tua transazione possa essere acquisita ai fini del programma, è necessario che l’Esercente abbia concluso un accordo con un “Acquirer Convenzionato”. Per questo, prima di eseguire un pagamento presso un punto vendita, verifica se partecipa al Cashback. Per maggiori info: https://io.italia.it/cashback/acquirer"
+    },
+    {
+      "previousStepId": "credit-card-2",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "L’acquisto che hai effettuato potrebbe essere stato effettuato con un Acquirer non convenzionato. Per questo, prima di eseguire un pagamento presso un punto vendita, verifica se partecipa al Cashback. Per maggiori info: https://io.italia.it/cashback/acquirer"
+    },
+    {
+      "previousStepId": "credit-card-3",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "L’acquisto che hai effettuato potrebbe essere stato effettuato con un Acquirer non convenzionato. Per questo, prima di eseguire un pagamento presso un punto vendita, verifica se partecipa al Cashback. Per maggiori info: https://io.italia.it/cashback/acquirer"
+    },
+    {
+      "previousStepId": "credit-card-4",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "L’acquisto che hai effettuato potrebbe essere stato effettuato con un Acquirer non convenzionato. Per questo, prima di eseguire un pagamento presso un punto vendita, verifica se partecipa al Cashback. Per maggiori info: https://io.italia.it/cashback/acquirer"
+    },
+    {
+      "previousStepId": "pago-bancomat-3",
+      "previousStepValue": "Si",
+      "id": "credit-card-pago-bancomat-3_1",
+      "question": "La transazione è stata gestita con il dispositivo di accettazione (POS) di un soggetto convenzionato? Per maggiori info: https://io.italia.it/cashback/acquirer",
+      "answers": ["Si", "No", "Non lo so"]
+    },
+    {
+      "previousStepId": "credit-card-pago-bancomat-3_1",
+      "previousStepValue": "Non lo so",
+      "id": "credit-card-pago-bancomat-3_2",
+      "question": "L’indicazione dell’Acquirer convenzionato è solitamente riportata sullo scontrino POS. Hai lo scontrino per poterlo verificare?",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "credit-card-pago-bancomat-3_2",
+      "previousStepValue": "Si",
+      "id": "credit-card-pago-bancomat-3_3",
+      "question": "Lo scontrino POS riporta l’indicazione dell’Acquirer? Per maggiori info: https://io.italia.it/cashback/acquirer",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "credit-card-pago-bancomat-3_3",
+      "previousStepValue": "Si",
+      "id": "credit-card-pago-bancomat-3_4",
+      "question": "L’Acquirer risulta tra quelli convenzionati? Per maggiori info: https://io.italia.it/cashback/acquirer",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "credit-card-pago-bancomat-3_1",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "All’avvio del Cashback, alcuni Esercenti potrebbero non disporre da subito di un dispositivo per l’utilizzo degli strumenti di pagamento elettronici che ti consentono di partecipare all’iniziativa. Infatti, affinché una tua transazione possa essere acquisita ai fini del programma, è necessario che l’Esercente abbia concluso un accordo con un “Acquirer Convenzionato”. Per questo, prima di eseguire un pagamento presso un punto vendita, verifica se partecipa al Cashback. Per maggiori info: https://io.italia.it/cashback/acquirer"
+    },
+    {
+      "previousStepId": "credit-card-pago-bancomat-3_2",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "L’acquisto che hai effettuato potrebbe essere stato effettuato con un Acquirer non convenzionato. Per questo, prima di eseguire un pagamento presso un punto vendita, verifica se partecipa al Cashback. Per maggiori info: https://io.italia.it/cashback/acquirer"
+    },
+    {
+      "previousStepId": "credit-card-pago-bancomat-3_3",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "L’acquisto che hai effettuato potrebbe essere stato effettuato con un Acquirer non convenzionato. Per questo, prima di eseguire un pagamento presso un punto vendita, verifica se partecipa al Cashback. Per maggiori info: https://io.italia.it/cashback/acquirer"
+    },
+    {
+      "previousStepId": "credit-card-pago-bancomat-3_4",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "L’acquisto che hai effettuato potrebbe essere stato effettuato con un Acquirer non convenzionato. Per questo, prima di eseguire un pagamento presso un punto vendita, verifica se partecipa al Cashback. Per maggiori info: https://io.italia.it/cashback/acquirer"
+    },
+    {
+      "previousStepId": "pago-bancomat-5",
+      "previousStepValue": "Si",
+      "id": "credit-card-pago-bancomat-5_1",
+      "question": "La transazione è stata gestita con il dispositivo di accettazione (POS) di un soggetto convenzionato? Per maggiori info: https://io.italia.it/cashback/acquirer",
+      "answers": ["Si", "No", "Non lo so"]
+    },
+    {
+      "previousStepId": "credit-card-pago-bancomat-5_1",
+      "previousStepValue": "Non lo so",
+      "id": "credit-card-pago-bancomat-5_2",
+      "question": "L’indicazione dell’Acquirer convenzionato è solitamente riportata sullo scontrino POS. Hai lo scontrino per poterlo verificare?",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "credit-card-pago-bancomat-5_2",
+      "previousStepValue": "Si",
+      "id": "credit-card-pago-bancomat-5_3",
+      "question": "Lo scontrino POS riporta l’indicazione dell’Acquirer? Per maggiori info: https://io.italia.it/cashback/acquirer",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "credit-card-pago-bancomat-5_3",
+      "previousStepValue": "Si",
+      "id": "credit-card-pago-bancomat-5_4",
+      "question": "L’Acquirer risulta tra quelli convenzionati? Per maggiori info: https://io.italia.it/cashback/acquirer",
+      "answers": ["Si", "No"]
+    },
+    {
+      "previousStepId": "credit-card-pago-bancomat-5_1",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "All’avvio del Cashback, alcuni Esercenti potrebbero non disporre da subito di un dispositivo per l’utilizzo degli strumenti di pagamento elettronici che ti consentono di partecipare all’iniziativa. Infatti, affinché una tua transazione possa essere acquisita ai fini del programma, è necessario che l’Esercente abbia concluso un accordo con un “Acquirer Convenzionato”. Per questo, prima di eseguire un pagamento presso un punto vendita, verifica se partecipa al Cashback. Per maggiori info: https://io.italia.it/cashback/acquirer"
+    },
+    {
+      "previousStepId": "credit-card-pago-bancomat-5_2",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "L’acquisto che hai effettuato potrebbe essere stato effettuato con un Acquirer non convenzionato. Per questo, prima di eseguire un pagamento presso un punto vendita, verifica se partecipa al Cashback. Per maggiori info: https://io.italia.it/cashback/acquirer"
+    },
+    {
+      "previousStepId": "credit-card-pago-bancomat-5_3",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "L’acquisto che hai effettuato potrebbe essere stato effettuato con un Acquirer non convenzionato. Per questo, prima di eseguire un pagamento presso un punto vendita, verifica se partecipa al Cashback. Per maggiori info: https://io.italia.it/cashback/acquirer"
+    },
+    {
+      "previousStepId": "credit-card-pago-bancomat-5_4",
+      "previousStepValue": "No",
+      "end": true,
+      "message": "L’acquisto che hai effettuato potrebbe essere stato effettuato con un Acquirer non convenzionato. Per questo, prima di eseguire un pagamento presso un punto vendita, verifica se partecipa al Cashback. Per maggiori info: https://io.italia.it/cashback/acquirer"
+    }
+  ]
+}
