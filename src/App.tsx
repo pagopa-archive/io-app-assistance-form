@@ -7,10 +7,10 @@ import { formList } from "./form";
 export const App: FC = (): JSX.Element => {
   const ref = useRef<HTMLDivElement>(null);
 
-  const onAttachToReport = (data: any) => console.log(data);
+  const onAttachToReport = (data: any) => window.sendMessagesToRN(data);
 
-  // WAITING FOR INTEGRATION WITH APP
-  // const onAbortRequestAssistance = () => {};
+  // TODO: choose what to on abort request assistance
+  // const onAbortRequestAssistance = () => window.closeModal();
 
   const initConversationalForm = useCallback(() => {
     const CF = ConversationalForm.startTheConversation({
